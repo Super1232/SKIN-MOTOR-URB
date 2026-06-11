@@ -1,0 +1,38 @@
+# Entornos virtuales
+skin_env/
+venv/
+env/
+
+# Bytecode y cachés de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datasets, imágenes y comprimidos (no se versionan)
+/data/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.zip
+
+# Modelos entrenados y checkpoints
+/models/
+*.pth
+*.pt
+*.onnx
+
+# Configuración local y secretos
+.env
+.env.*
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
