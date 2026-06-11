@@ -120,15 +120,6 @@ El entrenamiento intensivo está preparado para **Google Colab** (`notebooks/Run
 
 Este repositorio entrega el **motor de IA completo y funcional**: pipeline de datos, arquitecturas multimodales, entrenamiento con todas las técnicas anteriores e inferencia clínica en cascada con calibración, *conformal prediction*, incertidumbre y explicabilidad.
 
-### Trabajo futuro (no implementado en esta entrega)
-
-Las siguientes líneas forman parte de la visión a largo plazo del proyecto, pero **no están implementadas** en este motor:
-
-* **Comparación temporal**: detección de la evolución de un lunar a lo largo del tiempo (registro de imágenes, objeto de referencia para escala física, alerta de crecimiento) mediante redes Siamesas.
-* **API y backend**: servicio REST (FastAPI), base de datos y almacenamiento de imágenes.
-* **Interfaz de usuario**: aplicación web o móvil con captura guiada.
-* **Validación ética ampliada**: análisis de sesgo por fototipo (escala Fitzpatrick) y privacidad.
-
 ---
 
 ## Estructura del proyecto
