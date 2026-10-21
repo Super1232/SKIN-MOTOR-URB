@@ -123,7 +123,7 @@ El proyecto documenta y prueba reglas que **nunca** deben violarse, entre ellas:
 
 ## Cómo se desarrolló
 
-Lo desarrollé en solitario dirigiendo un agente de IA (Claude Code). Las reglas clínicas (umbral 0,20, separación por paciente, queratosis actínica como precancerosa…), las decisiones de diseño y la validación son mías.
+Lo desarrollé en solitario con ayuda de IA y de agentes. Las reglas clínicas (umbral 0,20, separación por paciente, queratosis actínica como precancerosa…), las decisiones de diseño y la validación técnica son mías.
 
 Cada defecto encontrado se registró con su causa raíz y su corrección, y muchos además con un test que evita que vuelva a aparecer. Esa batería de tests vive en el repositorio completo del proyecto, que todavía no es público.
 

@@ -232,9 +232,9 @@ def verify_integrity():
             RuntimeWarning,
             stacklevel=2,
         )
-        print(f"Estado: [ADVERTENCIA] VERIFICACIÓN PARCIAL — ejecutar pipeline completo antes de uso clínico")
+        print(f"Estado: [ADVERTENCIA] VERIFICACIÓN PARCIAL — ejecutar el pipeline completo antes de entrenar")
     else:
-        print(f"Estado: [OK] INTEGRO Y SEGURO PARA USO CLÍNICO")
+        print(f"Estado: [OK] Integridad de los datos verificada")
 
 
 if __name__ == "__main__":
